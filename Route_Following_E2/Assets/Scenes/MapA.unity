@@ -17258,27 +17258,6 @@ MonoBehaviour:
   - target: {fileID: 174694123}
     correctAnswer: 1
     firstLook: {fileID: 1256094746}
-  - target: {fileID: 94043175}
-    correctAnswer: 2
-    firstLook: {fileID: 174947119}
-  - target: {fileID: 2084269987}
-    correctAnswer: 2
-    firstLook: {fileID: 878504473}
-  - target: {fileID: 1033637076}
-    correctAnswer: 0
-    firstLook: {fileID: 1857450140}
-  - target: {fileID: 898817938}
-    correctAnswer: 1
-    firstLook: {fileID: 479960352}
-  - target: {fileID: 1003195863}
-    correctAnswer: 2
-    firstLook: {fileID: 1862938790}
-  - target: {fileID: 931493976}
-    correctAnswer: 0
-    firstLook: {fileID: 655337443}
-  - target: {fileID: 1565225483}
-    correctAnswer: 1
-    firstLook: {fileID: 1121321255}
   navMeshAgent: {fileID: 963194229}
   alertMessageComponent: {fileID: 1259837839}
   initialOrientation: {fileID: 335728500}

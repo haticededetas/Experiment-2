@@ -15,16 +15,20 @@ public class LoadLevel : MonoBehaviour
 
     public void LoadNextMap ()
     {
-        if (i == 3) // Check if i is 3
+        if (i > 0) // Check if it is above 0
         {
             
             SceneManager.LoadScene("WelcomeScene"); // when the game ends, load the welcome scene
             
         }
+        else
+        {
+            SceneManager.LoadScene(sceneSequence[i]); // open the corresponding scene in the scene order
+            Debug.Log(sceneSequence[i]);
+            i++;
+        }
 
-        SceneManager.LoadScene(sceneSequence[i]); // open the corresponding scene in the scene order
-        Debug.Log(sceneSequence[i]);
-        i++;
+        
         
     }
  

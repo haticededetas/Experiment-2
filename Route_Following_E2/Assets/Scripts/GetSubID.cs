@@ -13,6 +13,7 @@ public class GetSubID : MonoBehaviour
 
     public static string[] sceneorder; // to define the order of the maps,scenes
 
+
     public static int subIDint; 
 
     // public static EditorBuildSettingsScene[] scenes; // I made it static to call from other scripts
@@ -24,14 +25,8 @@ public class GetSubID : MonoBehaviour
         subIDint = int.Parse(s); // turn string SubID to integer
         Debug.Log(subIDint);
 
-        if (subIDint % 2 == 0) // Check if SubID is even
-        {
-            sceneorder = new string[] { "MapA", "MapB" }; // The scene order is under File-Build Settings
-        }
-        else // SubID is odd
-        {
-            sceneorder = new string[] { "MapB", "MapA" };
-        }
+        sceneorder = new string[] { "MapA" };
+
         Debug.Log(sceneorder[0]);
     }
 
