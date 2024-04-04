@@ -1,0 +1,13 @@
+Participant;TestOrder;MapName;DP_Name;Index_Number;ErrorNumber;RT_rotation_correct;RT_decision_correct;RT_correct;RT_rotation_mistake1;RT_decision_mistake1;RT_mistake1;RT_rotation_mistake2;RT_decision_mistake2;RT_mistake2;RT_rotation_mistake3;RT_decision_mistake3;RT_mistake3
+8;0;PracticeScene;DP1;0;0;2,90936;0,4848165;3,394176;0;0;0;0;0;0;0;0;0
+8;0;PracticeScene;DP2;1;0;1,273195;3,806709;5,079904;0;0;0;0;0;0;0;0;0
+8;0;PracticeScene;DP2;1;0;1,273195;3,78571;5,058904;0;0;0;0;0;0;0;0;0
+8;0;PracticeScene;DP2;1;0;1,273195;3,764423;5,037617;0;0;0;0;0;0;0;0;0
+8;0;PracticeScene;DP2;1;0;1,273195;3,742827;5,016022;0;0;0;0;0;0;0;0;0
+8;0;PracticeScene;DP2;1;0;1,273195;3,720819;4,994014;0;0;0;0;0;0;0;0;0
+8;0;PracticeScene;DP2;1;0;1,273195;3,699282;4,972476;0;0;0;0;0;0;0;0;0
+8;0;PracticeScene;DP2;1;0;1,273195;3,677161;4,950356;0;0;0;0;0;0;0;0;0
+8;0;PracticeScene;DP2;1;2;1,273195;3,654598;4,927793;1,596784;0,5323919;2,129176;2,431609;2,092585;4,524194;0;0;0
+8;0;PracticeScene;DP1;0;0;2,90936;0,4559447;3,365304;0;0;0;0;0;0;0;0;0
+8;0;PracticeScene;DP1;0;0;2,90936;0,4276238;3,336983;0;0;0;0;0;0;0;0;0
+8;0;PracticeScene;DP1;0;0;2,90936;0,396658;3,306018;0;0;0;0;0;0;0;0;0

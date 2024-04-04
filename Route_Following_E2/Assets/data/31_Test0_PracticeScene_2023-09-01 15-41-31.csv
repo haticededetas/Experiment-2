@@ -1,0 +1,5 @@
+Participant;TestOrder;MapName;DP_Name;Index_Number;ErrorNumber;RT_rotation_correct;RT_decision_correct;RT_correct;RT_rotation_mistake1;RT_decision_mistake1;RT_mistake1;RT_rotation_mistake2;RT_decision_mistake2;RT_mistake2;RT_rotation_mistake3;RT_decision_mistake3;RT_mistake3
+31;0;PracticeScene;DP1;0;0;2,336424;0,0256209;2,362045;0;0;0;0;0;0;0;0;0
+31;0;PracticeScene;DP2;1;0;1,708017;0,0475703;1,755587;0;0;0;0;0;0;0;0;0
+31;0;PracticeScene;DP3;2;0;1,207155;0,0638328;1,270988;0;0;0;0;0;0;0;0;0
+31;0;PracticeScene;DP4;3;2;1,509855;0,0783756;1,588231;3,230376;0,0685315;3,298908;1,504313;0,0734332;1,577746;0;0;0
