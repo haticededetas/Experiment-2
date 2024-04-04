@@ -196,7 +196,7 @@ public class PlayerMovement : MonoBehaviour
         }
 
         //message
-        string rotationMessage = "Please rotate around to see your options and press space button to proceed to the decision phase.";
+        string rotationMessage = "Bitte wenden Sie sich, um Ihre Antwortsmöglichkeiten zu sehen, und drücken Sie die Taste A, um mit der Entscheidungsphase fortzufahren.";
         alertMessageComponent.ShowAlert(rotationMessage);
 
 
@@ -282,13 +282,13 @@ public class PlayerMovement : MonoBehaviour
 
             if (decCorrect)
             {
-                string rotationMessage = "Please rotate around to see your options and press button to proceed to the decision phase.";
+                string rotationMessage = "Bitte wenden Sie sich, um Ihre Antwortsmöglichkeiten zu sehen, und drücken Sie die Taste A, um mit der Entscheidungsphase fortzufahren.";
                 alertMessageComponent.ShowAlert(rotationMessage);
 
             }
             else if (!decCorrect)
             {
-                string errorMessage = "Your answer is wrong. You can rotate again or make a new response after pressing to the Button A.";
+                string errorMessage = "Ihre Antwort ist falsch. Sie können sich nochmal wenden und eine neue Antwort geben, nachdem Sie die Taste A gedrückt haben.";
                 alertMessageComponent.ShowAlert(errorMessage);
             }
 
@@ -319,7 +319,7 @@ public class PlayerMovement : MonoBehaviour
                 canMakeDecision = true;
 
                 // Display appropriate message based on condition
-                string message = rotationTimer >= rotationTimeLimit ? "Your time is up, please make your decision." : "Please make your decision.";
+                string message = rotationTimer >= rotationTimeLimit ? "Ihre Zeit ist abgelaufen, bitte treffen Sie eine Entscheidung." : "Bitte treffen Sie eine Entscheidung.";
                 alertMessageComponent.ShowAlert(message);
 
                 
