@@ -409,7 +409,7 @@ public class PlayerMovement : MonoBehaviour
 
                     });
 
-                    string directoryPath = @"C:\Users\VRLab\OneDrive - Universität Mannheim\Desktop\VR_Experiment_1";
+                    string directoryPath = @"C:\Users\VRLab\OneDrive - Universität Mannheim\Desktop\VR_Experiment_2";
 
                     // name the data file
                     string filePath = Path.Combine(directoryPath, fileName);
